@@ -14,7 +14,7 @@ API RESTful básica construida con Flask que implementa operaciones CRUD (Create
 
 ```powershell
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/flaskapi.git
+git clone https://github.com/IvanRA46/FlaskAPI_CRUD.git
 cd flaskapi
 
 # Crear entorno virtual (opcional pero recomendado)
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/flaskapi.git
+git clone https://github.com/IvanRA46/FlaskAPI_CRUD.git
 cd flaskapi
 
 # Crear entorno virtual (opcional pero recomendado)
