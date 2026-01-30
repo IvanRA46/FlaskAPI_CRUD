@@ -285,11 +285,8 @@ pip install -r requirements.txt
 python3 -m pytest tests/test_api.py -v
 ```
 
-## 📄 Licencia
 
-Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
-
-## 👨‍💻 Autor
+## Autor
 
 Bryan Ivan Noe Ramirez Vivanco
 
