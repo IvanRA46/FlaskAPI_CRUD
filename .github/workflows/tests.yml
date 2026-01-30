@@ -33,7 +33,7 @@ jobs:
         python -m pytest tests/test_api.py -v --cov=app --cov-report=term --cov-report=html
     
     - name: Subir reporte de cobertura
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: matrix.python-version == '3.11'
       with:
         name: coverage-report
