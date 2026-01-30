@@ -2,13 +2,13 @@
 
 API RESTful básica construida con Flask que implementa operaciones CRUD (Create, Read, Update, Delete) para gestionar items.
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Python 3.8 o superior
 - pip (gestor de paquetes de Python)
 - Git
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### En Windows:
 
@@ -40,7 +40,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## ▶️ Ejecutar el Proyecto
+## Ejecutar el Proyecto
 
 ### Iniciar el servidor:
 
@@ -56,7 +56,7 @@ python3 -m app.app
 
 El servidor se iniciará en `http://127.0.0.1:5000/`
 
-## 🧪 Ejecutar las Pruebas
+## Ejecutar las Pruebas
 
 ### Ejecutar todos los tests:
 
@@ -86,7 +86,7 @@ Esto generará:
 - Reporte en terminal
 - Reporte HTML en la carpeta `htmlcov/` (abre `htmlcov/index.html` en tu navegador)
 
-## 📚 Endpoints de la API
+## Endpoints de la API
 
 ### 1. Obtener todos los items
 ```http
@@ -161,7 +161,7 @@ DELETE /items/0
 }
 ```
 
-## 🧪 Ejemplos de Uso con cURL
+## Ejemplos de Uso con cURL
 
 ### Windows PowerShell:
 ```powershell
@@ -193,7 +193,7 @@ curl -X PUT http://localhost:5000/items/0 -H "Content-Type: application/json" -d
 curl -X DELETE http://localhost:5000/items/0
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 flaskapi/
@@ -213,7 +213,7 @@ flaskapi/
 └── README.md                # Este archivo - Documentación del proyecto
 ```
 
-## 🧪 Resultados de las Pruebas
+## Resultados de las Pruebas
 
 Para ver los resultados de las pruebas más recientes, ejecuta:
 
@@ -239,7 +239,7 @@ app/routes.py        24      0   100%
 TOTAL                34      2    94%
 ```
 
-## 🚀 Prueba Rápida en Ubuntu
+## Prueba Rápida en Ubuntu
 
 Este proyecto incluye un script automatizado para Ubuntu que instalará dependencias y ejecutará todas las pruebas:
 
@@ -252,21 +252,21 @@ chmod +x test_ubuntu.sh
 ```
 
 El script realizará:
-1. ✅ Verificación de Python
-2. ✅ Instalación de dependencias
-3. ✅ Ejecución de tests
-4. ✅ Generación de reporte de cobertura
-5. ✅ Opción para iniciar el servidor
+1. Verificación de Python
+2. Instalación de dependencias
+3. Ejecución de tests
+4. Generación de reporte de cobertura
+5. Opción para iniciar el servidor
 
 
-## 📝 Notas Importantes
+## Notas Importantes
 
-- ⚠️ Esta API utiliza almacenamiento en memoria, los datos se pierden al reiniciar el servidor
-- 🔧 El modo debug está activado para desarrollo, desactívalo en producción
-- 📊 Los índices de los items comienzan en 0
-- 🔄 Cada test se ejecuta de forma aislada, por lo que la lista de items se reinicia entre tests
+- Esta API utiliza almacenamiento en memoria, los datos se pierden al reiniciar el servidor
+- El modo debug está activado para desarrollo, desactívalo en producción
+- Los índices de los items comienzan en 0
+- Cada test se ejecuta de forma aislada, por lo que la lista de items se reinicia entre tests
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### Error: "Module not found"
 ```bash
